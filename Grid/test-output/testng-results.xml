@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="28" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GridTest" duration-ms="19795" started-at="2021-05-09T07:02:51Z" finished-at="2021-05-09T07:03:11Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="12289" started-at="2021-05-09T07:02:51Z" finished-at="2021-05-09T07:03:03Z">
+      <class name="grid.Demo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:grid.Demo@4883b407]" name="setUp" is-config="true" duration-ms="5823" started-at="2021-05-09T12:32:51Z" finished-at="2021-05-09T12:32:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUrl()[pri:1, instance:grid.Demo@4883b407]" name="verifyUrl" duration-ms="60" started-at="2021-05-09T12:32:57Z" finished-at="2021-05-09T12:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="verifyTitle()[pri:2, instance:grid.Demo@4883b407]" name="verifyTitle" duration-ms="38" started-at="2021-05-09T12:32:57Z" finished-at="2021-05-09T12:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyLogo()[pri:3, instance:grid.Demo@4883b407]" name="verifyLogo" duration-ms="191" started-at="2021-05-09T12:32:57Z" finished-at="2021-05-09T12:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="verifyMainHeading()[pri:4, instance:grid.Demo@4883b407]" name="verifyMainHeading" duration-ms="116" started-at="2021-05-09T12:32:57Z" finished-at="2021-05-09T12:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainHeading -->
+        <test-method status="PASS" signature="verifySubHeading()[pri:5, instance:grid.Demo@4883b407]" name="verifySubHeading" duration-ms="129" started-at="2021-05-09T12:32:57Z" finished-at="2021-05-09T12:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubHeading -->
+        <test-method status="PASS" signature="verifySignInBoxHeading()[pri:6, instance:grid.Demo@4883b407]" name="verifySignInBoxHeading" duration-ms="106" started-at="2021-05-09T12:32:57Z" finished-at="2021-05-09T12:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInBoxHeading -->
+        <test-method status="PASS" signature="verifyPlaceholders()[pri:7, instance:grid.Demo@4883b407]" name="verifyPlaceholders" duration-ms="195" started-at="2021-05-09T12:32:57Z" finished-at="2021-05-09T12:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceholders -->
+        <test-method status="PASS" signature="verifyValidLogIn()[pri:8, instance:grid.Demo@4883b407]" name="verifyValidLogIn" duration-ms="3045" started-at="2021-05-09T12:32:58Z" finished-at="2021-05-09T12:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogIn -->
+        <test-method status="PASS" signature="verifyLogoutSuccessfullyMessage()[pri:9, instance:grid.Demo@4883b407]" name="verifyLogoutSuccessfullyMessage" duration-ms="108" started-at="2021-05-09T12:33:01Z" finished-at="2021-05-09T12:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutSuccessfullyMessage -->
+        <test-method status="PASS" signature="verifyInvalidLogIn()[pri:10, instance:grid.Demo@4883b407]" name="verifyInvalidLogIn" duration-ms="643" started-at="2021-05-09T12:33:01Z" finished-at="2021-05-09T12:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogIn -->
+        <test-method status="PASS" signature="verifyInvalidLogInErrorMessage()[pri:11, instance:grid.Demo@4883b407]" name="verifyInvalidLogInErrorMessage" duration-ms="232" started-at="2021-05-09T12:33:01Z" finished-at="2021-05-09T12:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogInErrorMessage -->
+        <test-method status="PASS" signature="verifyBlankLogInErrorMessage()[pri:12, instance:grid.Demo@4883b407]" name="verifyBlankLogInErrorMessage" duration-ms="595" started-at="2021-05-09T12:33:02Z" finished-at="2021-05-09T12:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlankLogInErrorMessage -->
+        <test-method status="PASS" signature="verifyRegisterLinkText()[pri:13, instance:grid.Demo@4883b407]" name="verifyRegisterLinkText" duration-ms="121" started-at="2021-05-09T12:33:02Z" finished-at="2021-05-09T12:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterLinkText -->
+        <test-method status="PASS" signature="verifyRegisterLink()[pri:14, instance:grid.Demo@4883b407]" name="verifyRegisterLink" duration-ms="812" started-at="2021-05-09T12:33:02Z" finished-at="2021-05-09T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterLink -->
+      </class> <!-- grid.Demo -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="19795" started-at="2021-05-09T07:02:51Z" finished-at="2021-05-09T07:03:11Z">
+      <class name="grid.Demo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:grid.Demo@5f341870]" name="setUp" is-config="true" duration-ms="11718" started-at="2021-05-09T12:32:51Z" finished-at="2021-05-09T12:33:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4446]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUrl()[pri:1, instance:grid.Demo@5f341870]" name="verifyUrl" duration-ms="49" started-at="2021-05-09T12:33:03Z" finished-at="2021-05-09T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="verifyTitle()[pri:2, instance:grid.Demo@5f341870]" name="verifyTitle" duration-ms="48" started-at="2021-05-09T12:33:03Z" finished-at="2021-05-09T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyLogo()[pri:3, instance:grid.Demo@5f341870]" name="verifyLogo" duration-ms="266" started-at="2021-05-09T12:33:03Z" finished-at="2021-05-09T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="verifyMainHeading()[pri:4, instance:grid.Demo@5f341870]" name="verifyMainHeading" duration-ms="128" started-at="2021-05-09T12:33:03Z" finished-at="2021-05-09T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainHeading -->
+        <test-method status="PASS" signature="verifySubHeading()[pri:5, instance:grid.Demo@5f341870]" name="verifySubHeading" duration-ms="108" started-at="2021-05-09T12:33:03Z" finished-at="2021-05-09T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubHeading -->
+        <test-method status="PASS" signature="verifySignInBoxHeading()[pri:6, instance:grid.Demo@5f341870]" name="verifySignInBoxHeading" duration-ms="66" started-at="2021-05-09T12:33:03Z" finished-at="2021-05-09T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInBoxHeading -->
+        <test-method status="PASS" signature="verifyPlaceholders()[pri:7, instance:grid.Demo@5f341870]" name="verifyPlaceholders" duration-ms="157" started-at="2021-05-09T12:33:03Z" finished-at="2021-05-09T12:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceholders -->
+        <test-method status="PASS" signature="verifyValidLogIn()[pri:8, instance:grid.Demo@5f341870]" name="verifyValidLogIn" duration-ms="5323" started-at="2021-05-09T12:33:03Z" finished-at="2021-05-09T12:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogIn -->
+        <test-method status="PASS" signature="verifyLogoutSuccessfullyMessage()[pri:9, instance:grid.Demo@5f341870]" name="verifyLogoutSuccessfullyMessage" duration-ms="98" started-at="2021-05-09T12:33:09Z" finished-at="2021-05-09T12:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutSuccessfullyMessage -->
+        <test-method status="PASS" signature="verifyInvalidLogIn()[pri:10, instance:grid.Demo@5f341870]" name="verifyInvalidLogIn" duration-ms="566" started-at="2021-05-09T12:33:09Z" finished-at="2021-05-09T12:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogIn -->
+        <test-method status="PASS" signature="verifyInvalidLogInErrorMessage()[pri:11, instance:grid.Demo@5f341870]" name="verifyInvalidLogInErrorMessage" duration-ms="114" started-at="2021-05-09T12:33:09Z" finished-at="2021-05-09T12:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogInErrorMessage -->
+        <test-method status="PASS" signature="verifyBlankLogInErrorMessage()[pri:12, instance:grid.Demo@5f341870]" name="verifyBlankLogInErrorMessage" duration-ms="644" started-at="2021-05-09T12:33:10Z" finished-at="2021-05-09T12:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlankLogInErrorMessage -->
+        <test-method status="PASS" signature="verifyRegisterLinkText()[pri:13, instance:grid.Demo@5f341870]" name="verifyRegisterLinkText" duration-ms="69" started-at="2021-05-09T12:33:10Z" finished-at="2021-05-09T12:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterLinkText -->
+        <test-method status="PASS" signature="verifyRegisterLink()[pri:14, instance:grid.Demo@5f341870]" name="verifyRegisterLink" duration-ms="412" started-at="2021-05-09T12:33:10Z" finished-at="2021-05-09T12:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterLink -->
+      </class> <!-- grid.Demo -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- GridTest -->
+</testng-results>
